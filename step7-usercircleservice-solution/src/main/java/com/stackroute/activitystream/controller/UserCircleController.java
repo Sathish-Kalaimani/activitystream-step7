@@ -22,12 +22,18 @@ import com.stackroute.activitystream.service.UserCircleService;
  * format. Starting from Spring 4 and above, we can use @RestController annotation which 
  * is equivalent to using @Controller and @ResposeBody annotation
  */
+@RestController
+@RequestMapping("/api/usercircle")
 public class UserCircleController {
 	/*
 	 * Autowiring should be implemented for the UserCircleService, UserCircle. 
 	 * Please note that we should not create any object using the new keyword 
 	 */
+	@Autowired
+	private UserCircleService userCircleService;
 	
+	@Autowired
+	private UserCircle userCircle;
 	
 	/* Define a handler method which will add a user to a circle. 
 	 *  
@@ -43,7 +49,18 @@ public class UserCircleController {
 	 * and "circleName" should be replaced by a valid circle name without {}
 	*/
 	
-	
+	@PutMapping(value ="/addToCircle/{username}/{circleName}")
+	public ResponseEntity<UserCircle> addUser(@PathVariable("username")String username,@PathVariable("circleName")String circleName){
+		userCircle = userCircleService.get(username, circleName);
+		if(userCircle != null) {
+			return new ResponseEntity<UserCircle>(HttpStatus.CONFLICT);
+		}
+		boolean isAdded = userCircleService.addUser(username, circleName);
+		if(!isAdded) {
+			return new ResponseEntity<UserCircle>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+			return new ResponseEntity<UserCircle>(HttpStatus.OK); 
+	}
 	
 	
 	
@@ -60,7 +77,14 @@ public class UserCircleController {
 	 * and "circleName" should be replaced by a valid circle name without {}
 	*/
 	
-	
+	@PutMapping(value ="/removeFromCircle/{username}/{circleName}")
+	public ResponseEntity<UserCircle> removeUser(@PathVariable("username")String username,@PathVariable("circleName")String circleName){
+		boolean isRemoved = userCircleService.removeUser(username, circleName);
+		if(isRemoved) {
+			return new ResponseEntity<UserCircle>(HttpStatus.OK);
+		}
+			return new ResponseEntity<UserCircle>(HttpStatus.INTERNAL_SERVER_ERROR);
+	}
 	
 	
 	/* Define a handler method which will get us the subscribed circles by a user. 
@@ -73,4 +97,9 @@ public class UserCircleController {
 	 * "/api/usercircle/searchByUser/{username}" using HTTP GET method
 	 * where "username" should be replaced by a valid username without {} 
 	*/
+	
+	@GetMapping(value = "/searchByUser/{username}")
+	public ResponseEntity<List<String>> searchUser(@PathVariable("username")String username){
+		return new ResponseEntity<List<String>>(userCircleService.getMyCircles(username), HttpStatus.OK);
+	}
 }

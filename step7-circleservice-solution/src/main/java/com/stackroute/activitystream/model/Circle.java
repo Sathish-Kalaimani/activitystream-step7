@@ -14,6 +14,9 @@ import org.springframework.stereotype.Component;
  * Please note that you will have to use @Component annotation on this class if wish
  * to autowire the class from any other components of the application
  */
+@Component
+@Entity
+@Table(name = "circle")
 public class Circle {
 	/*
 	 * This class should have three fields
@@ -23,29 +26,49 @@ public class Circle {
 	 * not be accepted from the user but should be always initialized with the
 	 * system date
 	 */
+	@Id
+	private String circleName;
+	private String creatorId;
+	private Timestamp createdDate;
 	
-	
-	
-	public Circle(String string, String string2, Timestamp timestamp) {
-		// TODO Auto-generated constructor stub
+	public Circle(String circleName, String creatorId, Timestamp createdDate) {
+		super();
+		this.circleName = circleName;
+		this.creatorId = creatorId;
+		this.createdDate = createdDate;
 	}
+	
 	public Circle() {
-		// TODO Auto-generated constructor stub
-	}
-	public void setCircleName(String string) {
-		// TODO Auto-generated method stub
 		
 	}
-	public void setCreatedDate() {
-		// TODO Auto-generated method stub
-		
-	}
-	public void setCreatorId(String string) {
-		// TODO Auto-generated method stub
-		
-	}
+
 	public String getCircleName() {
-		// TODO Auto-generated method stub
-		return null;
-	}	
+		return circleName;
+	}
+
+	public void setCircleName(String circleName) {
+		this.circleName = circleName;
+	}
+
+	public String getCreatorId() {
+		return creatorId;
+	}
+
+	public void setCreatorId(String creatorId) {
+		this.creatorId = creatorId;
+	}
+
+	public Timestamp getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate() {
+		this.createdDate = getDatePosted();
+	}
+	
+	private Timestamp getDatePosted() {
+		return new Timestamp(System.currentTimeMillis());
+	}
+	
+	
 }

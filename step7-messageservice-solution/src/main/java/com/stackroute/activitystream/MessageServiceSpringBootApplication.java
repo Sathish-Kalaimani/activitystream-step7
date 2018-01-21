@@ -21,8 +21,10 @@ public class MessageServiceSpringBootApplication {
 	 */
 	@Bean
 	public FilterRegistrationBean jwtFilter() {
-
-		return null;
+		FilterRegistrationBean registrationBean = new FilterRegistrationBean();
+		registrationBean.setFilter(new JwtFilter());
+		registrationBean.addUrlPatterns("/api/*");
+		return registrationBean;
 	}
 
 	/*
