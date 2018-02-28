@@ -28,6 +28,8 @@ public class User {
 	private String username;
 	private String name; 
 	private String password;
+	
+	
 	public User(String username, String name, String password) {
 		super();
 		this.username = username;

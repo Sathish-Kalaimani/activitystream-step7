@@ -15,6 +15,9 @@ import org.springframework.stereotype.Component;
  * Please note that you will have to use @Component annotation on this class if wish
  * to autowire the class from any other components of the application
  */
+@Entity
+@Component
+@Table (name="user")
 public class User {
 
 	/*
@@ -24,31 +27,39 @@ public class User {
 	 * the getters and setters for the fields.
 	 */
 	
-	public User(String string, String string2, String string3) {
-		// TODO Auto-generated constructor stub
+	private String username;
+	private String name;
+	private String password;
+	
+	public User(String username, String name, String password) {
+		super();
+		this.username = username;
+		this.name = name;
+		this.password = password;
 	}
+	
 	public User() {
-		// TODO Auto-generated constructor stub
-	}
-	public void setName(String string) {
-		// TODO Auto-generated method stub
 		
 	}
-	public void setPassword(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-	public void setUsername(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-	public String getPassword() {
-		// TODO Auto-generated method stub
-		return null;
-	}	
 	
 	public String getUsername() {
-		return null;
+		return username;
 	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
 	
 }
