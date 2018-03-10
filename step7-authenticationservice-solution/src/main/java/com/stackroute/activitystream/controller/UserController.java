@@ -22,7 +22,7 @@ import com.stackroute.activitystream.service.UserService;
  * is equivalent to using @Controller and @ResposeBody annotation
  */
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping(value="user")
 public class UserController {
 	/*
 	 * Autowiring should be implemented for the UserService. 
@@ -74,7 +74,7 @@ public class UserController {
 	@PostMapping
 	public ResponseEntity<User> createNewUser(@RequestBody User user){
 		User usr = userService.get(user.getUsername());
-		if(usr == null) {
+		if(usr != null) {
 			return new ResponseEntity<User>(HttpStatus.CONFLICT);
 		}
 		userService.save(user);
