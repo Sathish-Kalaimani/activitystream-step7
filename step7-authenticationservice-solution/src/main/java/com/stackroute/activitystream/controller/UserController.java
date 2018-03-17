@@ -23,7 +23,6 @@ import com.stackroute.activitystream.service.UserService;
  * is equivalent to using @Controller and @ResposeBody annotation
  */
 @RestController
-@RequestMapping("/api/user")
 @CrossOrigin
 public class UserController {
 	/*
@@ -40,7 +39,7 @@ public class UserController {
 	 * 
 	 * This handler method should map to the URL "/api/user" using HTTP GET method
 	*/
-	@GetMapping
+	@GetMapping(value="/api/user")
 	public ResponseEntity<List<User>> getAllUsers(){
 		return new ResponseEntity<List<User>>(userService.list(), HttpStatus.OK);
 	}
@@ -52,7 +51,7 @@ public class UserController {
 	 * This handler method should map to the URL "/api/user/{username}" using HTTP GET method
 	 * where "username" should be replaced by a username without {}
 	*/
-	@GetMapping (value = "/{username}")
+	@GetMapping (value = "/api/{username}")
 	public ResponseEntity<User> getUser(@PathVariable("username")String username){
 		User user = userService.get(username);
 		if(user!=null) {
@@ -73,7 +72,7 @@ public class UserController {
 	 * use the app, he will register himself first before login.
 	 * This handler method should map to the URL "/api/user" using HTTP POST method
 	*/
-	@PostMapping
+	@PostMapping(value="/registration")
 	public ResponseEntity<User> createNewUser(@RequestBody User user){
 		User usr = userService.get(user.getUsername());
 		if(usr != null) {
@@ -93,7 +92,7 @@ public class UserController {
 	 * This handler method should map to the URL "/api/user/{username}" using HTTP PUT method
 	*/
 	
-	@PutMapping (value="/{username}")
+	@PutMapping (value="/api/{username}")
 	public ResponseEntity<User> updateUser(@PathVariable("username")String username,@RequestBody User user){
 	User usr = userService.get(username);
 	if(usr == null) {
