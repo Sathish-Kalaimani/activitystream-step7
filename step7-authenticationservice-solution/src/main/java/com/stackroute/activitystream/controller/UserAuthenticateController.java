@@ -39,7 +39,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @CrossOrigin
 public class UserAuthenticateController {
 	
-	static final long Expiration = 300000;
+	static final long Expiration = 600000;
 	Map<String, String> map = new HashMap<>();
 
 	/*
