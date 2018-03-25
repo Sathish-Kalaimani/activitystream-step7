@@ -5,10 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.stackroute.activitystream.model.Message;
 import com.stackroute.activitystream.model.UserTag;
-import com.stackroute.activitystream.repository.CircleRepository;
 import com.stackroute.activitystream.repository.MessageRepository;
-import com.stackroute.activitystream.repository.UserCircleRepository;
-import com.stackroute.activitystream.repository.UserRepository;
 import com.stackroute.activitystream.repository.UserTagRepository;
 /*
 * Service classes are used here to implement additional business logic/validation. 
@@ -33,14 +30,14 @@ public class MessageServiceImpl implements MessageService{
 	@Autowired
 	private MessageRepository messageRepository;
 
-	@Autowired
+/*	@Autowired
 	private CircleRepository circleRepository;
 
 	@Autowired
 	private UserRepository userRepository;
 
 	@Autowired
-	private UserCircleRepository userCircleRepository;
+	private UserCircleRepository userCircleRepository;*/
 	/*
 	 * This method should be used to get all messages from a specific circle. Call the corresponding method of Respository interface.
 	 * */
@@ -65,9 +62,9 @@ public class MessageServiceImpl implements MessageService{
 	public boolean sendMessageToCircle(String circleName,Message message) {
 		message.setPostedDate();
 		message.setCircleName(circleName);
-		if (circleRepository.findOne(circleName) == null || !(userCircleRepository.findCircleNameByUserName(message.getCircleName()).contains(circleName))) {
+		/*if (circleRepository.findOne(circleName) == null || !(userCircleRepository.findCircleNameByUserName(message.getCircleName()).contains(circleName))) {
 			return false;
-		}
+		}*/
 		messageRepository.save(message);
 		return true;
 	}
@@ -80,15 +77,15 @@ public class MessageServiceImpl implements MessageService{
 	public boolean sendMessageToUser(String username,Message message) {
 		message.setPostedDate();
 		message.setReceiverId(username);
-		if (userRepository.findOne(message.getSenderName()) != null	&& userRepository.findOne(message.getReceiverId()) != null) {
+		/*if (userRepository.findOne(message.getSenderName()) != null	&& userRepository.findOne(message.getReceiverId()) != null) {*/
 			messageRepository.save(message);
 			return true;
 		}
-
+/*
 		return false;
 		
 	} 	
-	
+*/	
 	/*
 	 * This method should be used to list out all tags from all existing messages. Call the corresponding method of Respository interface.
 	 */
@@ -102,10 +99,10 @@ public class MessageServiceImpl implements MessageService{
 	 * This method should be used to list out all subscribed tags by a specific
 	 * user. Call the corresponding method of Respository interface.
 	 */
-	@SuppressWarnings("unchecked")
+	
 	public List<String> listMyTags(String username) {
 		
-		return (List<String>) userTagRepository.findOne(username);
+		return messageRepository.listMyTags(username);
 	}
 	
 	/*
@@ -127,8 +124,10 @@ public class MessageServiceImpl implements MessageService{
 		if(!(listMyTags(username).contains(tag))) {
 			userTagRepository.save(userTag);
 			return true;
+		}else {
+			return false;
 		}
-		return false;
+		
 	}
 	
 	/*
@@ -141,7 +140,9 @@ public class MessageServiceImpl implements MessageService{
 		if(!(listMyTags(username).contains(tag))) {
 			userTagRepository.delete(userTag);
 			return true;
+		}else {
+			return false;
 		}
-		return false;
+		
 	}
 }

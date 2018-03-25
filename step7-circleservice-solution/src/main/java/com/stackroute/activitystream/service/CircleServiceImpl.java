@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.stackroute.activitystream.model.Circle;
 import com.stackroute.activitystream.repository.CircleRepository;
-import com.stackroute.activitystream.repository.UserRepository;
 /*
 * Service classes are used here to implement additional business logic/validation. 
 * This class has to be annotated with @Service annotation.
@@ -25,20 +24,20 @@ public class CircleServiceImpl implements CircleService{
 	@Autowired
 	private CircleRepository circleRepository;
 	
-	@Autowired
-	private UserRepository userRepository;
+	/*@Autowired
+	private UserRepository userRepository;*/
 	/*
 	 * A circle should only be created if the circle does not already exist or the creatorId
 	 * is a valid username. 
 	 * */
 	public boolean save(Circle circle) {
 		
-		circle.getCreatedDate();
-		if(circleRepository.findOne(circle.getCircleName())==null || userRepository.findOne(circle.getCreatorId())==null) {
+		if(circleRepository.findOne(circle.getCircleName())!=null) {
 			return false;
+		}else {
+			circle.setCreatedDate();
+			return (circleRepository.saveAndFlush(circle)!=null);
 		}
-		circleRepository.saveAndFlush(circle);
-			return false;
 		
 	}
 	

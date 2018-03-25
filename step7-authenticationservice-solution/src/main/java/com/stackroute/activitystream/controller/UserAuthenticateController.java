@@ -39,7 +39,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @CrossOrigin
 public class UserAuthenticateController {
 	
-	static final long Expiration = 600000;
+	//static final long Expiration = 600000;
 	Map<String, String> map = new HashMap<>();
 
 	/*
@@ -101,11 +101,13 @@ public class UserAuthenticateController {
 			throw new ServletException("Invalid Credentials");
 		}
 		
-		jwtToken = Jwts.builder().setSubject(username).setIssuedAt(new Date())
+	/*	jwtToken = Jwts.builder().setSubject(username).setIssuedAt(new Date())
 				.setExpiration(new Date(System.currentTimeMillis()+Expiration))
 				.signWith(SignatureAlgorithm.HS256, "secretkey").compact();
-			return jwtToken;
+			return jwtToken;*/
 			
+		jwtToken = Jwts.builder().setSubject(username).setIssuedAt(new Date()).signWith(SignatureAlgorithm.HS256, "secretkey").compact();
+				return jwtToken;
 			
 	}
 	

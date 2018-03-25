@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.stackroute.activitystream.model.Circle;
 import com.stackroute.activitystream.service.CircleService;
 
@@ -74,6 +73,7 @@ public class CircleController {
 		if (c != null) {
 			return new ResponseEntity<Circle>(HttpStatus.CONFLICT);
 		}
+		
 		boolean creationStatus=circleService.save(circle);
 		if(!creationStatus) {
 			return new ResponseEntity<Circle>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -108,7 +108,7 @@ public class CircleController {
 	 * This handler method should map to the URL "/api/circle/search/{searchString}" using HTTP GET method" where 
 	 * "searchString" should be replaced with the actual search keyword without the {}
 	*/
-	@GetMapping("/search/{searchString}")
+	@GetMapping(value="/search/{searchString}")
 	public ResponseEntity<List<Circle>> getAllCircles(@PathVariable("searchString") String searchString) {
 
 		return new ResponseEntity<List<Circle>>(circleService.getAllCircles(searchString), HttpStatus.OK);
