@@ -35,7 +35,6 @@ public class CircleServiceImpl implements CircleService{
 		if(circleRepository.findOne(circle.getCircleName())!=null) {
 			return false;
 		}else {
-			circle.setCreatedDate();
 			return (circleRepository.saveAndFlush(circle)!=null);
 		}
 		

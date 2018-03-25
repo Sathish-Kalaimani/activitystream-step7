@@ -73,7 +73,7 @@ public class CircleController {
 		if (c != null) {
 			return new ResponseEntity<Circle>(HttpStatus.CONFLICT);
 		}
-		
+		circle.setCreatedDate();
 		boolean creationStatus=circleService.save(circle);
 		if(!creationStatus) {
 			return new ResponseEntity<Circle>(HttpStatus.INTERNAL_SERVER_ERROR);
