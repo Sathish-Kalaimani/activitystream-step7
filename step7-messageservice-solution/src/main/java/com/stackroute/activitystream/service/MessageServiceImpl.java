@@ -29,15 +29,7 @@ public class MessageServiceImpl implements MessageService{
 
 	@Autowired
 	private MessageRepository messageRepository;
-
-/*	@Autowired
-	private CircleRepository circleRepository;
-
-	@Autowired
-	private UserRepository userRepository;
-
-	@Autowired
-	private UserCircleRepository userCircleRepository;*/
+	
 	/*
 	 * This method should be used to get all messages from a specific circle. Call the corresponding method of Respository interface.
 	 * */
@@ -80,12 +72,11 @@ public class MessageServiceImpl implements MessageService{
 		/*if (userRepository.findOne(message.getSenderName()) != null	&& userRepository.findOne(message.getReceiverId()) != null) {*/
 			messageRepository.save(message);
 			return true;
-		}
-/*
-		return false;
-		
+		/*}else {
+			return false;	
+		}*/		
 	} 	
-*/	
+	
 	/*
 	 * This method should be used to list out all tags from all existing messages. Call the corresponding method of Respository interface.
 	 */

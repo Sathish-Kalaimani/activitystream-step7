@@ -104,4 +104,9 @@ public class UserCircleController {
 	public ResponseEntity<List<String>> searchUser(@PathVariable("username")String username){
 		return new ResponseEntity<List<String>>(userCircleService.getMyCircles(username), HttpStatus.OK);
 	}
+	
+	@GetMapping(value="/searchByCircle/{circleName}")
+	public ResponseEntity<List<String>> getCircleUsers(@PathVariable("circleName")String circleName){
+		return new ResponseEntity<List<String>>(userCircleService.getUsers(circleName),HttpStatus.OK);
+	}
 }

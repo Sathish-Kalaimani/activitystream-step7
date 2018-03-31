@@ -4,9 +4,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.stackroute.activitystream.model.UserCircle;
-import com.stackroute.activitystream.repository.CircleRepository;
 import com.stackroute.activitystream.repository.UserCircleRepository;
-import com.stackroute.activitystream.repository.UserRepository;
 /*
 * Service classes are used here to implement additional business logic/validation.
 * This class has to be annotated with @Service annotation.
@@ -25,12 +23,7 @@ public class UserCircleServiceImpl implements UserCircleService{
 	@Autowired
 	private UserCircleRepository userCircleRepository;
 	
-	@Autowired
-	private UserRepository userRepository;
-	
-	@Autowired
-	private CircleRepository circleRepository;
-	
+		
 	/*
 	 * This method should be used to add a user to a specific circle. You need to validate
 	 * whether the user and also the circle exist. Also, please check if the user is already
@@ -40,7 +33,7 @@ public class UserCircleServiceImpl implements UserCircleService{
 	public boolean addUser(String username, String circleName) {
 		UserCircle userCircle = new UserCircle(username, circleName);
 		
-		if(userRepository.findOne(username)!=null && circleRepository.findOne(circleName)!= null) {
+		if(userCircleRepository.getUsernameAndCircleName(username, circleName)== null) {
 			userCircleRepository.save(userCircle);
 			return true;
 		}
@@ -82,4 +75,10 @@ public class UserCircleServiceImpl implements UserCircleService{
 		
 		return userCircleRepository.getUsernameAndCircleName(username, circleName);
 	}
+	
+	public List<String> getUsers(String circleName) {
+		return userCircleRepository.findUserNameByCircleName(circleName);
+	}
+	
+	
 }

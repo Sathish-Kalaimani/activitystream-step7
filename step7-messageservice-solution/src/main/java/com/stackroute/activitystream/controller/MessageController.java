@@ -91,8 +91,10 @@ public class MessageController {
 		boolean isSent = messageService.sendMessageToUser(receiverId, message);
 		if(!isSent) {
 			return new ResponseEntity<Message>(HttpStatus.INTERNAL_SERVER_ERROR);
-		}
+		}else {
 			return new ResponseEntity<Message>(HttpStatus.OK);
+		}
+			
 	}
 	
 	
@@ -193,8 +195,10 @@ public class MessageController {
 		boolean isSubscribed = messageService.subscribeUserToTag(username, tag);
 		if(!isSubscribed) {
 			return new ResponseEntity<UserTag>(HttpStatus.INTERNAL_SERVER_ERROR);
-		}
+		}else {
 			return new ResponseEntity<UserTag>(HttpStatus.OK);
+		}
+			
 	}
 	
 	
@@ -218,8 +222,10 @@ public class MessageController {
 		boolean isUnsubscribed = messageService.unsubscribeUserToTag(username, tag);
 		if(!isUnsubscribed) {
 			return new ResponseEntity<UserTag>(HttpStatus.INTERNAL_SERVER_ERROR);
-		}
+		}else {
 			return new ResponseEntity<UserTag>(HttpStatus.OK);
+		}
+			
 	}
 	
 	

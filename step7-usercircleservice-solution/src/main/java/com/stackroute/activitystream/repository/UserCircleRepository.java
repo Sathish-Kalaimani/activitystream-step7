@@ -43,6 +43,8 @@ public interface UserCircleRepository extends CrudRepository<UserCircle, Integer
 	@Query("select circleName from UserCircle where username = :username")
 	List<String> findCircleNameByUserName(@Param("username")String username);
 	
+	@Query("select username from UserCircle where circleName = :circleName")
+	List<String> findUserNameByCircleName(@Param("circleName")String circleName);
 	
 
 }

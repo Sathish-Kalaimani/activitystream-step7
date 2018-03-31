@@ -27,7 +27,7 @@ public interface MessageRepository extends CrudRepository<Message, Integer>{
 	* 
 	* Write a query to retrieve all messages from database posted on specific circle.
 	* */
-	@Query("from Message where circleName = :circleName order by postedDate desc")
+	@Query("from Message where circleName = :circleName order by postedDate asc")
 	public List<Message> getMessagesFromCircle(@Param("circleName")String circleName);
 	
 	
@@ -38,7 +38,8 @@ public interface MessageRepository extends CrudRepository<Message, Integer>{
 	* 
 	* Write a query to retrieve all messages from the database send between two specified users. 
 	* */
-	@Query("from Message where senderName = :username and receiverId = :otherUsername order by postedDate desc")
+	
+	@Query("from Message where (senderName= :username and  receiverId= :otherUsername) or (receiverId= :username and senderName= :otherUsername)")
 	public List<Message> getMessagesFromUser(@Param("username")String username, @Param("otherUsername")String otherUsername);
 	
 	/*

@@ -13,4 +13,6 @@ public interface UserCircleService {
 	public List<String> getMyCircles(String username);
 	
 	public UserCircle get(String username, String circleName);
+	
+	public List<String> getUsers(String circleName);
 }
