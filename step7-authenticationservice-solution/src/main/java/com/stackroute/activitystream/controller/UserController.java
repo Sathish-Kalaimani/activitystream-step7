@@ -50,7 +50,7 @@ public class UserController {
 	 * This handler method should map to the URL "/api/user/{username}" using HTTP GET method
 	 * where "username" should be replaced by a username without {}
 	*/
-	@GetMapping (value = "/api/{username}")
+	@GetMapping (value = "/{username}")
 	public ResponseEntity<User> getUser(@PathVariable("username")String username){
 		User user = userService.get(username);
 		if(user!=null) {
