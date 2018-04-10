@@ -1,0 +1,128 @@
+2018-04-10 22:48:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'errorPageCustomizer'
+2018-04-10 22:48:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'tomcatEmbeddedServletContainerFactory'
+2018-04-10 22:48:45 [main] DEBUG o.s.b.c.e.t.TomcatEmbeddedServletContainerFactory - Code archive: C:\Users\SKalai\.m2\repository\org\springframework\boot\spring-boot\1.5.9.RELEASE\spring-boot-1.5.9.RELEASE.jar
+2018-04-10 22:48:45 [main] DEBUG o.s.b.c.e.t.TomcatEmbeddedServletContainerFactory - Code archive: C:\Users\SKalai\.m2\repository\org\springframework\boot\spring-boot\1.5.9.RELEASE\spring-boot-1.5.9.RELEASE.jar
+2018-04-10 22:48:45 [main] DEBUG o.s.b.c.e.t.TomcatEmbeddedServletContainerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2018-04-10 22:48:45 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8082 (http)
+2018-04-10 22:48:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-04-10 22:48:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-10 22:48:45 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-04-10 22:48:45 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3080 ms
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@46d7a6b]
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@715b32]
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@16bb6985]
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@561a419c]
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jwtFilter'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jwtFilter'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'authenticationServiceBoot'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'authenticationServiceBoot'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'authenticationServiceBoot' to allow for resolving potential circular references
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'authenticationServiceBoot'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jwtFilter' to allow for resolving potential circular references
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jwtFilter'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'dispatcherServletRegistration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration$$EnhancerBySpringCGLIB$$76e5836f] - unable to determine constructor/method parameter names
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'serverProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties' to allow for resolving potential circular references
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration' via constructor to bean named 'serverProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartConfigElement'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'multipartConfigElement'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration$$EnhancerBySpringCGLIB$$103df83c] - unable to determine constructor/method parameter names
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties' to allow for resolving potential circular references
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration' via constructor to bean named 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration' to allow for resolving potential circular references
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'multipartConfigElement' to allow for resolving potential circular references
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'multipartConfigElement'
+2018-04-10 22:48:45 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration' to allow for resolving potential circular references
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'dispatcherServlet'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration$$EnhancerBySpringCGLIB$$fbf5f448] - unable to determine constructor/method parameter names
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration' to allow for resolving potential circular references
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'dispatcherServlet' to allow for resolving potential circular references
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'dispatcherServlet'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'dispatcherServletRegistration' to allow for resolving potential circular references
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'dispatcherServletRegistration'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Added existing Filter initializer bean 'jwtFilter'; order=2147483647, resource=com.stackroute.activitystream.AuthenticationServiceBoot
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'multipartConfigElement'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dispatcherServlet'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'characterEncodingFilter'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'characterEncodingFilter'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'characterEncodingFilter' to allow for resolving potential circular references
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'characterEncodingFilter'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'characterEncodingFilter'
+2018-04-10 22:48:46 [localhost-startStop-1] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/HttpEncodingAutoConfiguration.class]
+2018-04-10 22:48:46 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-10 22:48:46 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'jwtFilter' to urls: [/api/*]

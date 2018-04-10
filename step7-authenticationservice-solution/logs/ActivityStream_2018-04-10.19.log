@@ -1,0 +1,107 @@
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jpaMappingContext'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'userRepository'
+2018-04-10 22:48:58 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-10 22:48:58 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+2018-04-10 22:48:58 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-10 22:48:58 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-10 22:48:58 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-10 22:48:58 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-10 22:48:58 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-10 22:48:58 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-10 22:48:58 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-10 22:48:58 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@56f2c9e8
+2018-04-10 22:48:58 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-10 22:48:58 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-10 22:48:58 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method validate
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@2cdb5974
+2018-04-10 22:48:58 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from com.stackroute.activitystream.model.User where username =:username and password = :password
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[IDENT] Node: 'com'
+    |           |  |  |  \-[IDENT] Node: 'stackroute'
+    |           |  |  \-[IDENT] Node: 'activitystream'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'User'
+    \-[WHERE] Node: 'where'
+       \-[AND] Node: 'and'
+          +-[EQ] Node: '='
+          |  +-[IDENT] Node: 'username'
+          |  \-[COLON] Node: ':'
+          |     \-[IDENT] Node: 'username'
+          \-[EQ] Node: '='
+             +-[IDENT] Node: 'password'
+             \-[COLON] Node: ':'
+                \-[IDENT] Node: 'password'
+
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+2018-04-10 22:48:58 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.stackroute.activitystream.model.User (<no alias>) -> user0_
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias} -> {synthetic-alias}
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : username -> org.hibernate.type.StringType@1edfedf1
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias}.username -> user0_.username
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias} -> {synthetic-alias}
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : password -> org.hibernate.type.StringType@1edfedf1
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : {synthetic-alias}.password -> user0_.password
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} user user0_ ) ( where ( and ( = ( user0_.username {synthetic-alias} username ) ? ) ( = ( user0_.password {synthetic-alias} password ) ? ) ) ) )
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [user user0_]
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.username as username1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.stackroute.activitystream.model.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.address as address2_0_, user0_.company as company3_0_, user0_.dob as dob4_0_, user0_.education as educatio5_0_, user0_.email as email6_0_, user0_.lastname as lastname7_0_, user0_.mobile as mobile8_0_, user0_.name as name9_0_, user0_.password as passwor10_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.stackroute.activitystream.model.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[AND] SqlNode: 'and'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'user0_.username' {propertyName=username,dereferenceType=PRIMITIVE,getPropertyPath=username,path={synthetic-alias}.username,tableAlias=user0_,className=com.stackroute.activitystream.model.User,classAlias=null}
+          |  |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  |  \-[IDENT] IdentNode: 'username' {originalText=username}
+          |  \-[NAMED_PARAM] ParameterNode: '?' {name=username, expectedType=org.hibernate.type.StringType@1edfedf1}
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'user0_.password' {propertyName=password,dereferenceType=PRIMITIVE,getPropertyPath=password,path={synthetic-alias}.password,tableAlias=user0_,className=com.stackroute.activitystream.model.User,classAlias=null}
+             |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+             |  \-[IDENT] IdentNode: 'password' {originalText=password}
+             \-[NAMED_PARAM] ParameterNode: '?' {name=password, expectedType=org.hibernate.type.StringType@1edfedf1}
+
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from com.stackroute.activitystream.model.User where username =:username and password = :password
+2018-04-10 22:48:58 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select user0_.username as username1_0_, user0_.address as address2_0_, user0_.company as company3_0_, user0_.dob as dob4_0_, user0_.education as educatio5_0_, user0_.email as email6_0_, user0_.lastname as lastname7_0_, user0_.mobile as mobile8_0_, user0_.name as name9_0_, user0_.password as passwor10_0_ from user user0_ where user0_.username=? and user0_.password=?
+2018-04-10 22:48:58 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+2018-04-10 22:48:58 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@26d24d7a]
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userRepository'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'userServiceImpl' to bean named 'userRepository'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userServiceImpl'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'userAuthenticateController' to bean named 'userServiceImpl'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userAuthenticateController'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userController'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'userController'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.stackroute.activitystream.controller.UserController]: AutowiredFieldElement for private com.stackroute.activitystream.service.UserService com.stackroute.activitystream.controller.UserController.userService
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'userController' to allow for resolving potential circular references
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'userController': AutowiredFieldElement for private com.stackroute.activitystream.service.UserService com.stackroute.activitystream.controller.UserController.userService
+2018-04-10 22:48:58 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userServiceImpl'

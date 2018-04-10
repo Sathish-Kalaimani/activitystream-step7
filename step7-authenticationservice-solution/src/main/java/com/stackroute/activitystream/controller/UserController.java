@@ -102,4 +102,17 @@ public class UserController {
 		userService.update(usr);
 		return new ResponseEntity<User>(user,HttpStatus.OK);
 	}
+	
+	
+	@PostMapping(value="/reset/{username}")
+	public ResponseEntity<User> resetPassword(@PathVariable("username")String username,@RequestBody User user){
+		User usr = userService.get(username);
+		if(usr==null) {
+			return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+		}else {
+			usr.setPassword(user.getPassword());
+			userService.update(usr);
+			return new ResponseEntity<User>(user,HttpStatus.OK);
+		}
+	}
 }

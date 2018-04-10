@@ -1,0 +1,110 @@
+2018-04-10 23:00:06 [main] DEBUG o.hibernate.engine.spi.CascadeStyles - External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+2018-04-10 23:00:06 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.Circle] is safe
+2018-04-10 23:00:06 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.Circle
+2018-04-10 23:00:07 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.Circle] is safe
+2018-04-10 23:00:07 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.Circle
+2018-04-10 23:00:07 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2018-04-10 23:00:07 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2018-04-10 23:00:07 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.stackroute.activitystream.model.User] is safe
+2018-04-10 23:00:07 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stackroute.activitystream.model.User
+2018-04-10 23:00:07 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.stackroute.activitystream.model.Circle
+2018-04-10 23:00:07 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select circle_name from circle where circle_name =?
+2018-04-10 23:00:07 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select circle_.circle_name, circle_.created_date as created_2_0_, circle_.creator_id as creator_3_0_, circle_.purpose as purpose4_0_ from circle circle_ where circle_.circle_name=?
+2018-04-10 23:00:07 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into circle (created_date, creator_id, purpose, circle_name) values (?, ?, ?, ?)
+2018-04-10 23:00:07 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update circle set created_date=?, creator_id=?, purpose=? where circle_name=?
+2018-04-10 23:00:07 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from circle where circle_name=?
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7b79ff1c]
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : purpose
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circle_n1_0_0_}
+
+2018-04-10 23:00:07 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [NONE]: select circle0_.circle_name as circle_n1_0_0_, circle0_.created_date as created_2_0_0_, circle0_.creator_id as creator_3_0_0_, circle0_.purpose as purpose4_0_0_ from circle circle0_ where circle0_.circle_name=?
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a9e754e]
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : purpose
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circle_n1_0_0_}
+
+2018-04-10 23:00:07 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [READ]: select circle0_.circle_name as circle_n1_0_0_, circle0_.created_date as created_2_0_0_, circle0_.creator_id as creator_3_0_0_, circle0_.purpose as purpose4_0_0_ from circle circle0_ where circle0_.circle_name=?
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20a9f5fb]
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : purpose
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circle_n1_0_0_}
+
+2018-04-10 23:00:07 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [UPGRADE]: select circle0_.circle_name as circle_n1_0_0_, circle0_.created_date as created_2_0_0_, circle0_.creator_id as creator_3_0_0_, circle0_.purpose as purpose4_0_0_ from circle circle0_ where circle0_.circle_name=? for update
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@340c57e0]
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : purpose
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circle_n1_0_0_}
+
+2018-04-10 23:00:07 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [UPGRADE_NOWAIT]: select circle0_.circle_name as circle_n1_0_0_, circle0_.created_date as created_2_0_0_, circle0_.creator_id as creator_3_0_0_, circle0_.purpose as purpose4_0_0_ from circle circle0_ where circle0_.circle_name=? for update
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c9372ed]
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : purpose
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circle_n1_0_0_}
+
+2018-04-10 23:00:07 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.Circle [UPGRADE_SKIPLOCKED]: select circle0_.circle_name as circle_n1_0_0_, circle0_.created_date as created_2_0_0_, circle0_.creator_id as creator_3_0_0_, circle0_.purpose as purpose4_0_0_ from circle circle0_ where circle0_.circle_name=? for update
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ca970d5]
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : createdDate
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : creatorId
+2018-04-10 23:00:07 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : purpose
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:00:07 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.Circle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.Circle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.Circle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.Circle)
+          - SQL table alias mapping - circle0_
+          - alias suffix - 0_
+          - suffixed key columns - {circle_n1_0_0_}
+

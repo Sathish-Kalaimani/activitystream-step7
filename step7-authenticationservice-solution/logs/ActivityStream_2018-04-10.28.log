@@ -1,0 +1,58 @@
+2018-04-10 23:03:24 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Initializing servlet 'dispatcherServlet'
+2018-04-10 23:03:25 [http-nio-8082-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-10 23:03:25 [http-nio-8082-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-10 23:03:25 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'multipartResolver'
+2018-04-10 23:03:25 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@44618fe6]
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@701cc5b9]
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-04-10 23:03:26 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@75e6f231]
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'handlerExceptionResolver'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'errorAttributes'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@9791ea]
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcViewResolver'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameViewResolver'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@695d8082]
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2018-04-10 23:03:27 [http-nio-8082-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 1711 ms
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Servlet 'dispatcherServlet' configured successfully
+2018-04-10 23:03:27 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing OPTIONS request for [/reset/skalai]
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /reset/skalai
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserController.resetPassword(java.lang.String,com.stackroute.activitystream.model.User)]
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userController'
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-10 23:03:28 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-10 23:03:29 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing POST request for [/reset/skalai]
+2018-04-10 23:03:29 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /reset/skalai
+2018-04-10 23:03:29 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserController.resetPassword(java.lang.String,com.stackroute.activitystream.model.User)]
+2018-04-10 23:03:29 [http-nio-8082-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userController'
+2018-04-10 23:03:29 [http-nio-8082-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor

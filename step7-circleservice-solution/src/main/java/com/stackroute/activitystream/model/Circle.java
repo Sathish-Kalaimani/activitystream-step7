@@ -28,9 +28,20 @@ public class Circle {
 	 */
 	@Id
 	private String circleName;
+	private String purpose;
 	private String creatorId;
 	private Timestamp createdDate;
 	
+	
+	
+	public Circle(String circleName, String purpose, String creatorId, Timestamp createdDate) {
+		super();
+		this.circleName = circleName;
+		this.purpose = purpose;
+		this.creatorId = creatorId;
+		this.createdDate = createdDate;
+	}
+
 	public Circle(String circleName, String creatorId, Timestamp createdDate) {
 		super();
 		this.circleName = circleName;
@@ -70,5 +81,13 @@ public class Circle {
 		return new Timestamp(System.currentTimeMillis());
 	}
 	
-	
+
+	public String getPurpose() {
+		return purpose;
+	}
+
+	public void setPurpose(String purpose) {
+		this.purpose = purpose;
+	}
+
 }

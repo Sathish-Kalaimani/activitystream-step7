@@ -1,0 +1,64 @@
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jpa.hibernate.ddl-auto' in PropertySource 'applicationConfig: [classpath:/application.yml]' with value of type String
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jpa.properties.hibernate.dialect' in PropertySource 'applicationConfig: [classpath:/application.yml]' with value of type String
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' via constructor to bean named 'dataSource'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'platformTransactionManagerCustomizers'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' to allow for resolving potential circular references
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' to allow for resolving potential circular references
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'platformTransactionManagerCustomizers' to allow for resolving potential circular references
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'platformTransactionManagerCustomizers'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' to allow for resolving potential circular references
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'entityManagerFactoryBuilder'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaVendorAdapter'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jpaVendorAdapter'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'

@@ -1,0 +1,296 @@
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [UPGRADE_NOWAIT]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c9ea1d0]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [UPGRADE_SKIPLOCKED]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@319b1c77]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [FORCE]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51d88c38]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [PESSIMISTIC_READ]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=? lock in share mode
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@57b33c29]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [PESSIMISTIC_WRITE]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@13390a96]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [PESSIMISTIC_FORCE_INCREMENT]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7497a554]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [OPTIMISTIC]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@664f49f]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : circleName
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserCircle)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserCircle, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserCircle)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserCircle)
+          - SQL table alias mapping - usercircle0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_cir1_3_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserCircle [OPTIMISTIC_FORCE_INCREMENT]: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=?
+2018-04-10 23:01:56 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.stackroute.activitystream.model.UserCircle: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=?
+2018-04-10 23:01:56 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.stackroute.activitystream.model.UserCircle: select usercircle0_.user_circle_id as user_cir1_3_0_, usercircle0_.circle_name as circle_n2_3_0_, usercircle0_.username as username3_3_0_ from user_circle usercircle0_ where usercircle0_.user_circle_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.stackroute.activitystream.model.UserTag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select user_tag_id from usertag where user_tag_id =?
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select usertag_.user_tag_id, usertag_.tag as tag2_4_, usertag_.username as username3_4_ from usertag usertag_ where usertag_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into usertag (tag, username, user_tag_id) values (?, ?, ?)
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update usertag set tag=?, username=? where user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from usertag where user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Identity insert: insert into usertag (tag, username) values (?, ?)
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@295f2d1b]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [NONE]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44e08a7a]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [READ]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28dacf31]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [UPGRADE]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@795faad]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [UPGRADE_NOWAIT]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@69f3e556]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [UPGRADE_SKIPLOCKED]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36511772]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [FORCE]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27a90ce5]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [PESSIMISTIC_READ]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? lock in share mode
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49a06087]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [PESSIMISTIC_WRITE]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@43b4ec0c]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [PESSIMISTIC_FORCE_INCREMENT]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=? for update
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5ee581db]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [OPTIMISTIC]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3e5ebdfe]
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tag
+2018-04-10 23:01:56 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : username
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2018-04-10 23:01:56 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.stackroute.activitystream.model.UserTag)
+    - Returns
+       - EntityReturnImpl(entity=com.stackroute.activitystream.model.UserTag, querySpaceUid=<gen:0>, path=com.stackroute.activitystream.model.UserTag)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stackroute.activitystream.model.UserTag)
+          - SQL table alias mapping - usertag0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_tag1_4_0_}
+
+2018-04-10 23:01:56 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.stackroute.activitystream.model.UserTag [OPTIMISTIC_FORCE_INCREMENT]: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.stackroute.activitystream.model.UserTag: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.stackroute.activitystream.model.UserTag: select usertag0_.user_tag_id as user_tag1_4_0_, usertag0_.tag as tag2_4_0_, usertag0_.username as username3_4_0_ from usertag usertag0_ where usertag0_.user_tag_id=?
+2018-04-10 23:01:56 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+2018-04-10 23:01:56 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update

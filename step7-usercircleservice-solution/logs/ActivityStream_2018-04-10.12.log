@@ -1,0 +1,61 @@
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSourceInitializerPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'dataSourceInitializerPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor]: AutowiredFieldElement for private org.springframework.beans.factory.BeanFactory org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.beanFactory
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'dataSourceInitializerPostProcessor' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'dataSourceInitializerPostProcessor': AutowiredFieldElement for private org.springframework.beans.factory.BeanFactory org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.beanFactory
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'dataSourceInitializerPostProcessor' to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2c4ca0f9'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'dataSourceInitializerPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'persistenceExceptionTranslationPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'environment'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'persistenceExceptionTranslationPostProcessor' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'persistenceExceptionTranslationPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'embeddedServletContainerCustomizerBeanPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'embeddedServletContainerCustomizerBeanPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'embeddedServletContainerCustomizerBeanPostProcessor' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'embeddedServletContainerCustomizerBeanPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'errorPageRegistrarBeanPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'errorPageRegistrarBeanPostProcessor' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'errorPageRegistrarBeanPostProcessor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSourceInitializedPublisher'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'dataSourceInitializedPublisher'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher]: AutowiredFieldElement for private org.springframework.context.ApplicationContext org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.applicationContext
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'dataSourceInitializedPublisher' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'dataSourceInitializedPublisher': AutowiredFieldElement for private org.springframework.context.ApplicationContext org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.applicationContext
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'dataSourceInitializedPublisher' to bean named 'org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47dbb1e2'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'dataSourceInitializedPublisher'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@23f3da8b]
+2018-04-10 23:02:31 [main] DEBUG o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@5634d0f4]
+2018-04-10 23:02:31 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@709ed6f3]
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatEmbeddedServletContainerFactory'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'tomcatEmbeddedServletContainerFactory'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-04-10 23:02:31 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c36ffe5]: AutowiredMethodElement for void org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration.setConfigurers(java.util.Collection)
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': AutowiredMethodElement for void org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration.setConfigurers(java.util.Collection)
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry'
+2018-04-10 23:02:31 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'transactionAttributeSource'
+2018-04-10 23:02:31 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'transactionAttributeSource' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'transactionAttributeSource'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'transactionInterceptor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionAttributeSource'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'transactionInterceptor' to allow for resolving potential circular references
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'transactionInterceptor'
+2018-04-10 23:02:31 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'transactionInterceptor'

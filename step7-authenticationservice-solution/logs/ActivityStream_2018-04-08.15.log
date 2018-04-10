@@ -1,0 +1,128 @@
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userAuthenticateController'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userController'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'userController'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.stackroute.activitystream.controller.UserController]: AutowiredFieldElement for private com.stackroute.activitystream.service.UserService com.stackroute.activitystream.controller.UserController.userService
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'userController' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'userController': AutowiredFieldElement for private com.stackroute.activitystream.service.UserService com.stackroute.activitystream.controller.UserController.userService
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userServiceImpl'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'userController' to bean named 'userServiceImpl'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userController'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'user'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'user'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'user' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'user'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userServiceImpl'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$4883d6b7]: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$e5271fd4]: AutowiredFieldElement for private org.springframework.context.ApplicationContext org.springframework.data.web.config.SpringDataWebConfiguration.context
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$e5271fd4]: AutowiredFieldElement for org.springframework.beans.factory.ObjectFactory org.springframework.data.web.config.SpringDataWebConfiguration.conversionService
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.data.web.config.SpringDataWebConfiguration' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.data.web.config.SpringDataWebConfiguration': AutowiredFieldElement for private org.springframework.context.ApplicationContext org.springframework.data.web.config.SpringDataWebConfiguration.context
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' to bean named 'org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74cadd41'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.data.web.config.SpringDataWebConfiguration': AutowiredFieldElement for org.springframework.beans.factory.ObjectFactory org.springframework.data.web.config.SpringDataWebConfiguration.conversionService
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to bean named 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to bean named 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestMappingHandlerMapping'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'openEntityManagerInViewInterceptor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'openEntityManagerInViewInterceptor' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'openEntityManagerInViewInterceptor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcConversionService'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userRepository'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcConversionService'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcResourceUrlProvider'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcResourceUrlProvider'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcContentNegotiationManager'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcContentNegotiationManager'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+2018-04-08 09:41:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74cadd41: startup date [Sun Apr 08 09:41:48 IST 2018]; root of context hierarchy
+2018-04-08 09:41:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 request handler methods found on class com.stackroute.activitystream.controller.UserAuthenticateController: {public java.lang.String com.stackroute.activitystream.controller.UserAuthenticateController.serverStarted()={[/],methods=[GET]}, public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserAuthenticateController.login(com.stackroute.activitystream.model.User) throws javax.servlet.ServletException={[/login],methods=[POST]}}
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.stackroute.activitystream.controller.UserAuthenticateController.serverStarted()
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.activitystream.controller.UserAuthenticateController.login(com.stackroute.activitystream.model.User) throws javax.servlet.ServletException
+2018-04-08 09:41:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 request handler methods found on class com.stackroute.activitystream.controller.UserController: {public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserController.createNewUser(com.stackroute.activitystream.model.User)={[/registration],methods=[POST]}, public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserController.getUser(java.lang.String)={[/{username}],methods=[GET]}, public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserController.updateUser(java.lang.String,com.stackroute.activitystream.model.User)={[/api/{username}],methods=[PUT]}, public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserController.getAllUsers()={[/api/user],methods=[GET]}}
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/registration],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserController.createNewUser(com.stackroute.activitystream.model.User)
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/{username}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserController.getUser(java.lang.String)
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/{username}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserController.updateUser(java.lang.String,com.stackroute.activitystream.model.User)
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.activitystream.model.User>> com.stackroute.activitystream.controller.UserController.getAllUsers()
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-04-08 09:41:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 request handler methods found on class org.springframework.boot.autoconfigure.web.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-08 09:41:54 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerMapping'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcPathMatcher'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-08 09:41:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references

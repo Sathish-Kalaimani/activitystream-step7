@@ -1,0 +1,128 @@
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.UserCircle:username]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for username
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property username
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.User
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name User
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.User on table user
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:username]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for username
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property username
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=address, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:address]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=company, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property company with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:company]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for company
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property company
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=dob, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property dob with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:dob]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for dob
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property dob
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=education, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property education with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:education]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for education
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property education
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:email]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:lastname]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobile with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:mobile]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobile
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobile
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:name]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property password with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:password]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for password
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property password
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.Circle
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Circle
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.Circle on table circle
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=circle_name, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property circleName with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:circleName]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for circleName
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property circleName
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=created_date, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property createdDate with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:createdDate]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for createdDate
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property createdDate
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=creator_id, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property creatorId with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:creatorId]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for creatorId
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property creatorId
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(circle), mappingColumn=purpose, insertable=true, updatable=true, unique=false}
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property purpose with lazy=false
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.Circle:purpose]
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for purpose
+2018-04-10 23:02:34 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property purpose
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for userCircleId
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for circleName
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for company
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for dob
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for education
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastname
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobile
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for password
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for circleName
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for createdDate
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for creatorId
+2018-04-10 23:02:34 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for purpose
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [user_circle_id] to be non-null as it is part of the primary key for table [user_circle]
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [username] to be non-null as it is part of the primary key for table [user]
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [circle_name] to be non-null as it is part of the primary key for table [circle]
+2018-04-10 23:02:34 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - JPA query language strict compliance: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: enabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@46702c26
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2018-04-10 23:02:34 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled

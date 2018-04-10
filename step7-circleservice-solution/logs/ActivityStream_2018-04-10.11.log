@@ -1,0 +1,78 @@
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'tomcatEmbeddedServletContainerFactory' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'websocketContainerCustomizer'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'websocketContainerCustomizer'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'websocketContainerCustomizer' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'websocketContainerCustomizer'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'localeCharsetMappingsCustomizer'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration$$EnhancerBySpringCGLIB$$2c9d4dac] - unable to determine constructor/method parameter names
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy68
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-10 22:59:49 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': AutowiredMethodElement for public void org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.setConverters(java.util.List)
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': AutowiredMethodElement for public void org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.setGenericConverters(java.util.List)
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration' via constructor to bean named 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'localeCharsetMappingsCustomizer' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'localeCharsetMappingsCustomizer'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'serverProperties'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'serverProperties'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration'
+2018-04-10 22:59:49 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'serverProperties' to allow for resolving potential circular references
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.yml]' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+2018-04-10 22:59:49 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence

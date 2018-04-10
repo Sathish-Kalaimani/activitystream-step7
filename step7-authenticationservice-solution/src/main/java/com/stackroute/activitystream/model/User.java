@@ -27,9 +27,32 @@ public class User {
 	@Id
 	private String username;
 	private String name; 
+	private String lastname;
+	private String education;
+	private String address;
+	private String company;
+	private long mobile;
+	private String email;
+	private String dob;
 	private String password;
 	
 	
+	
+	public User(String username, String name, String lastname, String education, String address, String company,
+			long mobile, String email, String dob, String password) {
+		super();
+		this.username = username;
+		this.name = name;
+		this.lastname = lastname;
+		this.education = education;
+		this.address = address;
+		this.company = company;
+		this.mobile = mobile;
+		this.email = email;
+		this.dob = dob;
+		this.password = password;
+	}
+
 	public User(String username, String name, String password) {
 		super();
 		this.username = username;
@@ -57,6 +80,62 @@ public class User {
 		this.name = name;
 	}
 
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+
+	public String getEducation() {
+		return education;
+	}
+
+	public void setEducation(String education) {
+		this.education = education;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getCompany() {
+		return company;
+	}
+
+	public void setCompany(String company) {
+		this.company = company;
+	}
+
+	public long getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(long mobile) {
+		this.mobile = mobile;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getDob() {
+		return dob;
+	}
+
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+
 	public String getPassword() {
 		return password;
 	}
@@ -64,6 +143,8 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+	
 	
 	
 }
