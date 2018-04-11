@@ -1,0 +1,64 @@
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'embeddedServletContainerCustomizerBeanPostProcessor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dispatcherServlet'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration' to allow for resolving potential circular references
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' to allow for resolving potential circular references
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultValidator'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'defaultValidator'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'defaultValidator' to allow for resolving potential circular references
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'defaultValidator'
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy67
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-11 12:36:13 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'defaultValidator'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'methodValidationPostProcessor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration' to allow for resolving potential circular references
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'error'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'error'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'error' to allow for resolving potential circular references
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'error'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameViewResolver'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'beanNameViewResolver'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'beanNameViewResolver' to allow for resolving potential circular references
+2018-04-11 12:36:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'

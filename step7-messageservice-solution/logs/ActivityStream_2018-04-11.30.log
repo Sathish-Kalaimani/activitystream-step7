@@ -1,0 +1,64 @@
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'messageController'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.stackroute.activitystream.controller.MessageController]: AutowiredFieldElement for private com.stackroute.activitystream.service.MessageService com.stackroute.activitystream.controller.MessageController.messageService
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'messageController' to allow for resolving potential circular references
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'messageController': AutowiredFieldElement for private com.stackroute.activitystream.service.MessageService com.stackroute.activitystream.controller.MessageController.messageService
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageServiceImpl'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'messageServiceImpl'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.stackroute.activitystream.service.MessageServiceImpl]: AutowiredFieldElement for private com.stackroute.activitystream.repository.UserTagRepository com.stackroute.activitystream.service.MessageServiceImpl.userTagRepository
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.stackroute.activitystream.service.MessageServiceImpl]: AutowiredFieldElement for private com.stackroute.activitystream.repository.MessageRepository com.stackroute.activitystream.service.MessageServiceImpl.messageRepository
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'messageServiceImpl' to allow for resolving potential circular references
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'messageServiceImpl': AutowiredFieldElement for private com.stackroute.activitystream.repository.UserTagRepository com.stackroute.activitystream.service.MessageServiceImpl.userTagRepository
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userTagRepository'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'userTagRepository'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]: PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'userTagRepository' to allow for resolving potential circular references
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'userTagRepository': PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#470c4229'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#5600a278'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [META-INF/jpa-named-queries.properties] to resources []
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '(inner bean)#5600a278'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#5600a278'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#470c4229'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#1ab268bd'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#1ab268bd'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#783dc0e7'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSourceInitializer'
+2018-04-11 13:35:45 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [data-all.sql] to resources []
+2018-04-11 13:35:45 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [data.sql] to resources []
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#783dc0e7'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaMappingContext'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jpaMappingContext'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jpaMappingContext' to allow for resolving potential circular references
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'jpaMappingContext'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jpaMappingContext'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 13:35:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'userTagRepository'
+2018-04-11 13:35:45 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-04-11 13:35:45 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+2018-04-11 13:35:45 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 13:35:45 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation

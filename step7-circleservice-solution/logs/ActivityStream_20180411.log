@@ -1,0 +1,28 @@
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'defaultValidator'
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'mvcValidator'
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'jpaMappingContext': [circleRepository, userRepository]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'circleRepository': [circleServiceImpl]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'circleServiceImpl': [circleController]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#50785f86': [circleRepository]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#39f93225': [(inner bean)#50785f86]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'userRepository': [userServiceImpl]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'userServiceImpl': [userAuthenticateController, userController]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#578d472a': [userRepository]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#1191029d': [(inner bean)#578d472a]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'jpaMappingContext'
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'entityManagerFactory': [org.springframework.orm.jpa.SharedEntityManagerCreator#0]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0': [jpaContext]
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'entityManagerFactory'
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-11 21:09:36 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.h.internal.SessionFactoryImpl - HHH000031: Closing
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.h.j.i.EntityManagerFactoryRegistry - Remove: name=default
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'dataSource': [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration]
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy method 'close' on bean with name 'dataSource'
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'characterEncodingFilter'
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2018-04-11 21:09:37 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]

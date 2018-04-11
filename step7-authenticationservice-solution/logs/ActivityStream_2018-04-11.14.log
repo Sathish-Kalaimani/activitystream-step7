@@ -1,0 +1,136 @@
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@743d0d44
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@ad3f70a
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@ad3f70a
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@5520f675
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5520f675
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6ce26986
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6ce26986
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@4faf1f4
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4faf1f4
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@39f0c343
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@39f0c343
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@71c0b742
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5f5297e3
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5f5297e3
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5f5297e3
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5b066c33
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5b066c33
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5b066c33
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@20bb85b4
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@72af90e8
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@3cc9632d
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@3cc9632d
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@3cc9632d
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@798cf6d2
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@798cf6d2
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@798cf6d2
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@615439f7
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@7eaa2bc6
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@31881aa2
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@31881aa2
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1eb9bf60
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@626c569b
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@626c569b
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@1304e0d7
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1304e0d7
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@433ef204
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1068176
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@103c97ff
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@5f0f70c7
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5f0f70c7
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@283ab206
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@35fa450f
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3e03046d
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@9b3be1c
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@74e497ae
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@13516600
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@35d7386b
+2018-04-11 12:36:03 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@21002393
+2018-04-11 12:36:03 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.7.21-log
+      major : 5
+      minor : 7
+2018-04-11 12:36:03 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )
+      major : 5
+      minor : 1
+2018-04-11 12:36:03 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.0
+2018-04-11 12:36:03 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-11 12:36:03 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2018-04-11 12:36:03 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory -     - overriding [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-04-11 12:36:04 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.stackroute.activitystream.model.User
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name User
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.stackroute.activitystream.model.User on table user
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property username with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:username]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for username
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property username
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=address, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:address]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=company, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property company with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:company]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for company
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property company
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=dob, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property dob with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:dob]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for dob
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property dob
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=education, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property education with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:education]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for education
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property education
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:email]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:lastname]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobile with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:mobile]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobile
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobile
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:name]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+2018-04-11 12:36:04 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property password with lazy=false
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.stackroute.activitystream.model.User:password]
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for password
+2018-04-11 12:36:04 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property password
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address
+2018-04-11 12:36:04 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for company

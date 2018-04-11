@@ -91,14 +91,20 @@ public class UserController {
 	 * This handler method should map to the URL "/api/user/{username}" using HTTP PUT method
 	*/
 	
-	@PutMapping (value="/api/{username}")
+	@PostMapping (value="/api/{username}")
 	public ResponseEntity<User> updateUser(@PathVariable("username")String username,@RequestBody User user){
 	User usr = userService.get(username);
 	if(usr == null) {
 		return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
 	}
 		usr.setName(user.getName());
-		usr.setPassword(user.getPassword());
+		usr.setLastname(user.getLastname());
+		usr.setAddress(user.getAddress());
+		usr.setCompany(user.getCompany());
+		usr.setDob(user.getDob());
+		usr.setEducation(user.getEducation());
+		usr.setEmail(user.getEmail());
+		usr.setMobile(user.getMobile());
 		userService.update(usr);
 		return new ResponseEntity<User>(user,HttpStatus.OK);
 	}

@@ -1,0 +1,64 @@
+2018-04-11 21:04:58 [http-nio-8085-exec-6] DEBUG org.hibernate.loader.Loader - Result row: 
+2018-04-11 21:04:58 [http-nio-8085-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[StackRoute Niit, KiNg'S]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@43e3dbaf]
+2018-04-11 21:04:58 [http-nio-8085-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 21:04:58 [http-nio-8085-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:04:58 [http-nio-8085-exec-6] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 21:04:58 [http-nio-8085-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/usercircle/searchByUser/skalai]
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/usercircle/searchByUser/skalai
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.stackroute.activitystream.controller.UserCircleController.searchUser(java.lang.String)]
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userCircleController'
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/usercircle/searchByUser/skalai] is: -1
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:05:00 [http-nio-8085-exec-5] DEBUG org.hibernate.SQL - select usercircle0_.circle_name as col_0_0_ from user_circle usercircle0_ where usercircle0_.username=?
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG org.hibernate.loader.Loader - Result row: 
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG org.hibernate.loader.Loader - Result set row: 1
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG org.hibernate.loader.Loader - Result row: 
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[StackRoute Niit, KiNg'S]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@43e3dbaf]
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 21:05:01 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/usercircle/searchByUser/skalai]
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/usercircle/searchByUser/skalai
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.stackroute.activitystream.controller.UserCircleController.searchUser(java.lang.String)]
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userCircleController'
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/usercircle/searchByUser/skalai] is: -1
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG org.hibernate.SQL - select usercircle0_.circle_name as col_0_0_ from user_circle usercircle0_ where usercircle0_.username=?
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG org.hibernate.loader.Loader - Result row: 
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG org.hibernate.loader.Loader - Result set row: 1
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG org.hibernate.loader.Loader - Result row: 
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[StackRoute Niit, KiNg'S]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@43e3dbaf]
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 21:05:54 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing OPTIONS request for [/api/usercircle/searchByCircle/StackRoute%20Niit]
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/usercircle/searchByCircle/StackRoute Niit
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.stackroute.activitystream.controller.UserCircleController.getCircleUsers(java.lang.String)]
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userCircleController'
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 21:08:26 [http-nio-8085-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:08:27 [http-nio-8085-exec-1] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 21:08:27 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-11 21:08:27 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/usercircle/searchByCircle/StackRoute%20Niit]
+2018-04-11 21:08:27 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/usercircle/searchByCircle/StackRoute Niit
+2018-04-11 21:08:27 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.stackroute.activitystream.controller.UserCircleController.getCircleUsers(java.lang.String)]
+2018-04-11 21:08:27 [http-nio-8085-exec-10] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userCircleController'
+2018-04-11 21:08:27 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/usercircle/searchByCircle/StackRoute%20Niit] is: -1
+2018-04-11 21:08:27 [http-nio-8085-exec-10] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG org.hibernate.SQL - select usercircle0_.username as col_0_0_ from user_circle usercircle0_ where usercircle0_.circle_name=?
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG org.hibernate.loader.Loader - Result row: 
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[skalai]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@43e3dbaf]
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 21:08:28 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-11 21:09:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-04-11 21:09:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47dbb1e2: startup date [Wed Apr 11 13:52:10 IST 2018]; root of context hierarchy
+2018-04-11 21:09:48 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String

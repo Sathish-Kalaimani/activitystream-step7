@@ -1,0 +1,64 @@
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUrlPathHelper'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'viewControllerHandlerMapping'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'viewControllerHandlerMapping'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'beanNameHandlerMapping'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-04-11 12:36:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47dbb1e2: startup date [Wed Apr 11 12:35:50 IST 2018]; root of context hierarchy
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'authenticationServiceBoot': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'loggingAspectUser': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'loggingAspectUserService': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'userAuthenticateController': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'userController': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'user': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'userServiceImpl': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcConversionService': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcValidator': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcViewResolver': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'jwtFilter': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2018-04-11 12:36:11 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store': no URL paths identified

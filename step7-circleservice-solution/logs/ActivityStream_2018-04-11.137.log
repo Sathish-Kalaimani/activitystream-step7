@@ -1,0 +1,62 @@
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/circle]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/circle
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.activitystream.model.Circle>> com.stackroute.activitystream.controller.CircleController.getAllCircles()]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'circleController'
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/circle] is: -1
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@261b5fc6] for JPA transaction
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1a4653ef]]] read-only
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5b37b951]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.jpa.criteria.CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Circle as generatedAlias0
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG org.hibernate.SQL - select circle0_.circle_name as circle_n1_0_, circle0_.created_date as created_2_0_, circle0_.creator_id as creator_3_0_, circle0_.purpose as purpose4_0_ from circle circle0_
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#KiNg'S]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG org.hibernate.loader.Loader - Result set row: 1
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#StackRoute Niit]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.stackroute.activitystream.model.Circle#KiNg'S]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.stackroute.activitystream.model.Circle#KiNg'S]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.stackroute.activitystream.model.Circle#StackRoute Niit]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.stackroute.activitystream.model.Circle#StackRoute Niit]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@261b5fc6]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1a4653ef]]]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[com.stackroute.activitystream.model.Circle@e7e6dab, com.stackroute.activitystream.model.Circle@6359c887]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@54a4e95f]
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 20:54:10 [http-nio-8084-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/circle]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/circle
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.activitystream.model.Circle>> com.stackroute.activitystream.controller.CircleController.getAllCircles()]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'circleController'
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/circle] is: -1
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@45803bd5] for JPA transaction
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1a4653ef]]] read-only
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7916b558]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.jpa.criteria.CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Circle as generatedAlias0
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG org.hibernate.SQL - select circle0_.circle_name as circle_n1_0_, circle0_.created_date as created_2_0_, circle0_.creator_id as creator_3_0_, circle0_.purpose as purpose4_0_ from circle circle0_
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG org.hibernate.loader.Loader - Result set row: 0
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#KiNg'S]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG org.hibernate.loader.Loader - Result set row: 1
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.stackroute.activitystream.model.Circle#StackRoute Niit]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.stackroute.activitystream.model.Circle#KiNg'S]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.stackroute.activitystream.model.Circle#KiNg'S]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.stackroute.activitystream.model.Circle#StackRoute Niit]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.stackroute.activitystream.model.Circle#StackRoute Niit]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@45803bd5]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@1a4653ef]]]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[com.stackroute.activitystream.model.Circle@5e9eec63, com.stackroute.activitystream.model.Circle@17894366]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@54a4e95f]
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-04-11 21:01:44 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
