@@ -1,5 +1,7 @@
 package com.stackroute.activitystream.model;
 
+import java.sql.Blob;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -35,6 +37,7 @@ public class User {
 	private String email;
 	private String dob;
 	private String password;
+	private byte[] profilePic;
 	
 	
 	
@@ -142,6 +145,14 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public byte[] getProfilePic() {
+		return profilePic;
+	}
+
+	public void setProfilePic(byte[] profilePic) {
+		this.profilePic = profilePic;
 	}
 
 	

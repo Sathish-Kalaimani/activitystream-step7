@@ -52,8 +52,10 @@ public class UserCircleServiceImpl implements UserCircleService{
 		if(userCircle!=null) {
 			userCircleRepository.delete(userCircle);
 			return true;
-		}
+		}else {
 			return false;
+		}
+			
 	}
 	
 	

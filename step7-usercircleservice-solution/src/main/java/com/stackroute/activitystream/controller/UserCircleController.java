@@ -84,8 +84,10 @@ public class UserCircleController {
 		boolean isRemoved = userCircleService.removeUser(username, circleName);
 		if(isRemoved) {
 			return new ResponseEntity<UserCircle>(HttpStatus.OK);
-		}
+		}else {
 			return new ResponseEntity<UserCircle>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+			
 	}
 	
 	

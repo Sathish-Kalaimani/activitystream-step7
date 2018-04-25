@@ -1,5 +1,6 @@
 package com.stackroute.activitystream.controller;
 
+import java.io.IOException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,9 +9,11 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+
 import com.stackroute.activitystream.model.User;
 import com.stackroute.activitystream.service.UserService;
 /*
@@ -119,6 +122,18 @@ public class UserController {
 			usr.setPassword(user.getPassword());
 			userService.update(usr);
 			return new ResponseEntity<User>(user,HttpStatus.OK);
+		}
+	}
+	
+	@PostMapping(value="/api/upload/{username}", consumes= {"multipart/form-data"})
+	public ResponseEntity<Boolean> uploadFile(@PathVariable("username")String username,@RequestParam MultipartFile file) throws IOException{
+		User usr = userService.get(username);
+		if(usr == null) {
+			return new ResponseEntity<Boolean>(false,HttpStatus.NOT_FOUND);
+		}else {
+			usr.setProfilePic(file.getBytes());
+			userService.update(usr);
+			return new ResponseEntity<Boolean>(true,HttpStatus.OK);
 		}
 	}
 }

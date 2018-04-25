@@ -1,4 +1,0 @@
-2018-04-10 23:17:42 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-2018-04-10 23:17:42 [http-nio-8082-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
-2018-04-10 23:17:42 [http-nio-8082-exec-6] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
-2018-04-10 23:17:42 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
